@@ -1,0 +1,39 @@
+.summaryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.summaryCard > img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.innerCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.innerInnerCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.innerInnerCard > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
